@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .header {
+            color: #ffffff;
+            padding: 0px;
+            text-align: center;
+            font-family: Segoe Script;
+            font-size: xx-large;
+        }
+
+        .profile-img {
+            border-radius: 30%;
+            max-width: 200px;
+            border: 10px solid #c1c3e2;
+        }
+
+        .container {
+            color: #000000;
+            margin: 50px auto;
+            max-width: 70%;
+        }
+
+        .container p {
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: start;
+            margin-bottom: 50px;
+            color: rgb(0, 0, 0);
+           
+            background-color: #8875b6;
+        }
+
+        .skills img {
+            
+            max-width: 100px;
+        }
+
+        .accomplishments {
+            color: rgb(0, 0, 0);
+            list-style-type: none;
+            padding: 0;
+            background-color: #8875b6;
+        }
+
+        .accomplishments li {
+            margin-bottom: 10px;
+        }
+
+        .socials a {
+            text-decoration: none;
+            color: #000000;
+            margin: 0 5px;
+        }
+
+        .socials img {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            
+        }
+       .back-video{
+        position: absolute;
+        right:0;
+        bottom:0;
+        z-index:-1; 
+       }
+       @media (min-aspect-ratio: 16/9){
+        .back-video{
+            width:100%;
+            height:auto;}
+       }
+        @media (max-aspect-ratio: 16/9){
+        .back-video{
+            width:auto;
+            height:100%;
+        }
+       }
+    </style>
+</head>
+<body>
+   <video autoplay loop muted plays-inline class="back-video">
+    <source src="pexels_videos_1851190 (2160p).mp4" type="video/mp4">
+   </video>
+   <body style="background-color: #8875b6;"
+    <header class="header">
+        <h1><b><u>Jayditya Sawai</u></b></h1><br>
+        <img class="profile-img" src="photo.jpeg" alt="Your Profile Picture">
+        <div class="socials">
+            <br>
+            <a href="https://github.com/jayditya" target="_blank"><img src="github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/jayditya-sawai-213799242?utm_source=share&utm_
+            campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="linke.png" alt="LinkedIn"></a>
+        </div>
+    </header>
+    
+    <div class="container">
+    <br>
+    <br>
+    <br>
+   <br>
+        
+        <h1><u>About</u></h1>
+        <p>
+            <b>Jayditya Sawai</b> is a student studying Computer Science, driven by their curiosity and
+                passion, for coding languages. They are deeply committed to mastering the complexities of programming. Have a desire to innovate and find solutions in the digital world. Jaydityas dedication, to computer science shines through lighting their path towards a future of opportunities and potential.</p>
+        <br>
+        <h2><u>Skills</u></h2>
+        <div class="skills">
+            <p> <ul><b><u>Programming Languages:</u></b> Proficient in languages such as Python, C, and C++.<br>
+                
+             <b><u>Web Development:</u></b> Experience in HTML, CSS, and front-end frameworks like React and Angular.<br>
+            <b><u>Cybersecurity:</u></b> Knowledge of cybersecurity principles, threat assessment, and network security.<br>
+         <b><u>Operating Systems:</u></b> Familiarity with Windows, Linux, and Unix environments.<br>
+     <b><u>Communication and Collaboration:</u></b> Strong interpersonal skills, able to work effectively in team environments.</p>
+</ul></div>
+
+        <h2><u>Accomplishments</u></h2>
+        <ul class="accomplishments">
+            <li>Achieved a milestone in Cybersecurity through an intensive, IBM-powered program on 
+                Coursera. Gained comprehensive insights and expertise in safeguarding digital 
+                infrastructures against evolving threats. Equipped with advanced skills in threat 
+                assessment, strategic planning, and implementing robust security measures.
+                 Ready to leverage this knowledge to contribute to secure digital landscapes 
+                 and ensure a resilient cyber ecosystem.</li>
+            <li>
+                As a dedicated member of the Institute of Engineering (India) - IEI, 
+                I've embraced a profound commitment to the advancement and elevation of engineering principles. 
+                Engaging with a community of brilliant minds and industry experts, my association with IEI has 
+                been instrumental in shaping my perspective on engineering challenges and innovative solutions. 
+                Through this esteemed institution, I've had the privilege to exchange ideas, collaborate on projects,
+                 and foster a network that not only enhances my academic pursuits
+                 but also allows me to contribute meaningfully to the realm of engineering and technology.</li>
+            
+                 <img src="cyber.jpeg" alt="Skill 1">
+                 <img src="os.png" alt="Skill 2">
+                 <img src="web development.jpeg" alt="Skill 3">
+        </ul>
+    </div>
+</body>
+</html>
